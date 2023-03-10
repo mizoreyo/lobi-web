@@ -1,0 +1,134 @@
+.nav-box {
+  background-color: #fff;
+  height: 58px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+  height: 58px;
+}
+
+.nav-menu-c {
+  width: 945px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav-bar {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.login-b {
+  border: none;
+  background-color: transparent;
+  padding: 6px 12px;
+  font-size: 15px;
+  color: #969696;
+}
+
+.reg-b {
+  width: 80px;
+  height: 38px;
+  line-height: 24px;
+  border: 1px solid rgba(236, 97, 73, 0.7);
+  border-radius: 20px;
+  font-size: 15px;
+  color: #ea6f5a;
+  background-color: transparent;
+}
+
+.write-b {
+  width: 100px;
+  height: 40px;
+  line-height: 24px;
+  border-radius: 20px;
+  border: 1px solid rgba(236, 97, 73, 0.7);
+  font-size: 15px;
+  color: #fff;
+  background-color: #ea6f5a;
+}
+
+.menu-items {
+  list-style: none;
+  display: flex;
+  height: 58px;
+  margin-right: 20px;
+}
+
+.menu-item {
+  color: #333;
+  font-size: 17px;
+  height: 100%;
+  line-height: 58px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #f5f5f5;
+}
+
+.search-input {
+  display: block;
+  height: 38px;
+  font-size: 14px;
+  border: 1px solid #eee;
+  border-radius: 40px;
+  background: #eee;
+  padding: 0 40px 0 20px;
+  transition: width 0.5s;
+  transition-delay: 0.1s;
+  width: 150px;
+}
+
+.search-input:focus {
+  width: 250px;
+}
+
+.search-btn {
+  display: block;
+  text-decoration: none;
+  position: absolute;
+  top: 22%;
+  right: 4px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  color: #969696 !important;
+  text-align: center;
+}
+
+.search-btn i {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1300px) {
+  .nav-box {
+    padding: 0;
+  }
+}

@@ -1,0 +1,16 @@
+.explore-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exp-list {
+  width: 625px;
+  background-color: aqua;
+  list-style: none;
+  height: 200px;
+}
+
+.exp-right {
+  width: 280px;
+  background-color: palegoldenrod;
+}
