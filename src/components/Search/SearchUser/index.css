@@ -1,0 +1,40 @@
+.su-item {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  border-bottom: 1px solid rgba(171, 171, 171, 0.229);
+}
+
+.sui-left {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.sui-left img{
+  height: 50px;
+  width: 50px;
+  border-radius: 999px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.sui-right {
+  height: 30px;
+  width: 60px;
+  border-radius: 999px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: #ea6f5a;
+}
+
+.sui-name {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.sui-desc {
+  font-size: 12px;
+  color: #969696;
+}

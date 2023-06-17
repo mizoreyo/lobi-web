@@ -1,0 +1,42 @@
+.av-c {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  margin-right: 20px;
+  position: relative;
+  box-sizing: content-box;
+}
+
+.av-c:hover .av-drop-down {
+  display: block;
+}
+
+.av-c img {
+  width: 100%;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.av-drop-down {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  background-color: #fff;
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.av-b-list {
+  list-style: none;
+}
+
+.av-b-i {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.av-b-i:hover {
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,5 @@
+.write-box {
+  height: calc(100vh - 130px);
+  display: flex;
+  width: 100%;
+}

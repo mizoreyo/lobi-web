@@ -1,0 +1,49 @@
+.sear-box {
+  display: flex;
+}
+
+.sear-left {
+  width: 250px;
+  margin-right: 40px;
+}
+
+.sear-right {
+  flex-grow: 1;
+}
+
+.sel-item {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.sel-item:hover {
+  background-color: #f0f0f0;
+}
+
+.sel-icon {
+  height: 35px;
+  width: 35px;
+  background-color: #ea6f5a;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 15px;
+}
+
+.sel-icon i {
+  font-size: 20px;
+  color: #fff;
+}
+
+.sear-selected {
+  background-color: #f0f0f0;
+}
+
+.colored {
+  color: #ea6f5a;
+}

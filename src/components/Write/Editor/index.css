@@ -1,0 +1,52 @@
+.editor-box {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.e-box {
+  width: 100%;
+  display: flex;
+  border-left: 1px solid rgba(5, 5, 5, 0.06);
+  height: calc(100vh - 170px);
+}
+
+.editor-header {
+  display: flex;
+}
+
+.title-input {
+  font-size: 16px;
+  flex-grow: 1;
+  height: 40px;
+  border: none;
+  padding-left: 10px;
+}
+
+.edit-box {
+  height: 100%;
+  width: 50%;
+  border-right: 1px solid rgba(5, 5, 5, 0.06);
+  border-top: 1px solid rgba(5, 5, 5, 0.06);
+}
+
+.show-box {
+  height: 100%;
+  width: 50%;
+  border-right: 1px solid rgba(5, 5, 5, 0.06);
+  border-top: 1px solid rgba(5, 5, 5, 0.06);
+  padding: 10px;
+  height: calc(100vh - 170px);
+  overflow-y: scroll;
+}
+
+#edit-area {
+  width: 100%;
+  resize: none;
+  height: 100%;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  overflow-y: scroll;
+}
+

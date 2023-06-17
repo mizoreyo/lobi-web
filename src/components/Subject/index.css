@@ -1,0 +1,127 @@
+.subj-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subjb-left {
+  width: 625px;
+}
+
+.subjb-right {
+  width: 280px;
+}
+
+.subjb-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subjbh-left {
+  display: flex;
+  align-items: center;
+}
+
+.subjbh-name {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.subjbh-count {
+  font-size: 14px;
+  color: #969696;
+  margin-top: 10px;
+}
+
+.subjbh-left img {
+  height: 80px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.subjbh-right {
+  display: flex;
+}
+
+.subjbh-right button {
+  width: 100px;
+  height: 40px;
+  border-radius: 999px;
+  outline: none;
+  border: none;
+  background-color: #ea6f5a;
+  color: #fff;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.subjbr-h {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #969696;
+}
+
+.subjbr-t {
+  margin-bottom: 10px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.sub-creator-b {
+  display: flex;
+  align-items: center;
+}
+
+.sub-creator-b img {
+  height: 32px;
+  border-radius: 999px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.subjbr-name {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.subjb-footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.spr-subj-list {
+  list-style: none;
+}
+
+.spr-subj-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.spr-subj-item img {
+  height: 30px;
+  border-radius: 3px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.spr-subj-item div {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.spr-new-subj {
+  font-size: 14px;
+  color: #ea6f5a;
+  cursor: pointer;
+}
+
+.subjbr-delete {
+  color: #ea6f5a;
+  font-size: 14px;
+  cursor: pointer;
+}

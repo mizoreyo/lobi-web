@@ -1,0 +1,112 @@
+.mes-box {
+  display: flex;
+}
+
+.mesb-left {
+  width: 250px;
+  min-width: 250px;
+  margin-right: 40px;
+}
+
+.mesb-right {
+  flex-grow: 1;
+}
+
+.mes-item {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.mes-item:hover {
+  background-color: #f0f0f0;
+}
+
+.mes-icon {
+  height: 35px;
+  width: 35px;
+  background-color: #ea6f5a;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 15px;
+}
+
+.mes-icon i {
+  font-size: 20px;
+  color: #fff;
+}
+
+.mes-selected {
+  background-color: #f0f0f0;
+}
+
+.mes-list {
+  list-style: none;
+}
+
+.mes-list img {
+  width: 45px;
+  height: 45px;
+  border-radius: 999px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.mes-user {
+  color: #ea6f5a;
+  cursor: pointer;
+}
+
+.mes-article {
+  color: #ea6f5a;
+  cursor: pointer;
+}
+
+.mesl-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mesl-left {
+  display: flex;
+  align-items: center;
+}
+
+.mesl-item {
+  margin-bottom: 20px;
+}
+
+.mes-button {
+  position: relative;
+}
+
+.mes-bar {
+  width: 80px;
+  position: absolute;
+  background-color: #fff;
+  right: -40px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  display: none;
+  z-index: 999;
+}
+
+.mes-button:hover .mes-bar {
+  display: block;
+}
+
+.mesb-b {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.mesb-b:hover {
+  background-color: #f3f3f3;
+}
